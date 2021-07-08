@@ -10,6 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+//your controller to handle request define here
 type UsersControllerStruct struct {
 	usersUsecase usecase.UsersInterface
 }
@@ -25,14 +26,14 @@ func (g *UsersControllerStruct) CreateUsers(c *gin.Context) {
 
 	err := c.ShouldBindJSON(&data)
 	if err != nil {
-		utils.ErrorMessage(c, http.StatusBadRequest, "0001", "cannot read input data")
+		utils.ErrorMessage(c, http.StatusBadRequest, &utils.ErrInput)
 		fmt.Printf("[UsersControllerStruct.CreateUsers] Error when bind json : %v\n", err)
 		return
 	}
 
-	test, err := g.usersUsecase.CreateUsers(&data)
+	test, err2 := g.usersUsecase.CreateUsers(&data)
 	if err != nil {
-		utils.ErrorMessage(c, http.StatusBadRequest, "0002", err.Error())
+		utils.ErrorMessage(c, http.StatusBadRequest, err2)
 	}
 	utils.SuccessData(c, http.StatusOK, test)
 }

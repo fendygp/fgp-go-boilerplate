@@ -1,5 +1,7 @@
 package models
 
+//your models for request, reponse and table struct define here
+
 type RequestUser struct {
 	Nama      string `json:"nama"`
 	Pekerjaan string `json:"pekerjaan"`

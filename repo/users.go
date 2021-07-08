@@ -9,6 +9,7 @@ import (
 	"github.com/go-resty/resty/v2"
 )
 
+//your function for query db, consume another service cant define here
 type UsersRepoStruct struct {
 }
 
