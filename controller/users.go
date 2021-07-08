@@ -26,7 +26,7 @@ func (g *UsersControllerStruct) CreateUsers(c *gin.Context) {
 	err := c.ShouldBindJSON(&data)
 	if err != nil {
 		utils.ErrorMessage(c, http.StatusBadRequest, "0001", "cannot read input data")
-		fmt.Printf("[AuthControllerStruct.GetAccessToken] Error when bind json : %v\n", err)
+		fmt.Printf("[UsersControllerStruct.CreateUsers] Error when bind json : %v\n", err)
 		return
 	}
 
