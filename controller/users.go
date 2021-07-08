@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"bitbucket.org/bridce/fgp-go-boilerplate/models"
-	"bitbucket.org/bridce/fgp-go-boilerplate/usecase"
-	"bitbucket.org/bridce/fgp-go-boilerplate/utils"
+	"github.com/bridce/fgp-go-boilerplate/models"
+	"github.com/bridce/fgp-go-boilerplate/usecase"
+	"github.com/bridce/fgp-go-boilerplate/utils"
 	"github.com/gin-gonic/gin"
 )
 

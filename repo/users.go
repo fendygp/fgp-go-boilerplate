@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"bitbucket.org/bridce/fgp-go-boilerplate/models"
+	"github.com/bridce/fgp-go-boilerplate/models"
 	"github.com/go-resty/resty/v2"
 )
 

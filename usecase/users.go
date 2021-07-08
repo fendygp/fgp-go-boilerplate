@@ -3,9 +3,9 @@ package usecase
 import (
 	"fmt"
 
-	"bitbucket.org/bridce/fgp-go-boilerplate/models"
-	"bitbucket.org/bridce/fgp-go-boilerplate/repo"
-	e "bitbucket.org/bridce/fgp-go-boilerplate/utils"
+	"github.com/bridce/fgp-go-boilerplate/models"
+	"github.com/bridce/fgp-go-boilerplate/repo"
+	e "github.com/bridce/fgp-go-boilerplate/utils"
 )
 
 //your business logic can define here

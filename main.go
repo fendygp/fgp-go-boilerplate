@@ -1,6 +1,6 @@
 package main
 
-import "bitbucket.org/bridce/fgp-go-boilerplate/application"
+import "github.com/bridce/fgp-go-boilerplate/application"
 
 func main() {
 	application.StartApp()

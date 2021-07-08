@@ -1,8 +1,8 @@
 package application
 
 import (
-	"bitbucket.org/bridce/fgp-go-boilerplate/config"
-	"bitbucket.org/bridce/fgp-go-boilerplate/router"
+	"github.com/bridce/fgp-go-boilerplate/config"
+	"github.com/bridce/fgp-go-boilerplate/router"
 	g "github.com/incubus8/go/pkg/gin"
 	"github.com/rs/zerolog/log"
 )

@@ -3,9 +3,9 @@ package router
 import (
 	"fmt"
 
-	"bitbucket.org/bridce/fgp-go-boilerplate/controller"
-	"bitbucket.org/bridce/fgp-go-boilerplate/repo"
-	"bitbucket.org/bridce/fgp-go-boilerplate/usecase"
+	"github.com/bridce/fgp-go-boilerplate/controller"
+	"github.com/bridce/fgp-go-boilerplate/repo"
+	"github.com/bridce/fgp-go-boilerplate/usecase"
 	"github.com/gin-gonic/gin"
 )
 

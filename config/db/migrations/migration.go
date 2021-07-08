@@ -1,6 +1,6 @@
 package migrations
 
-import "bitbucket.org/bridce/fgp-go-boilerplate/config/db"
+import "github.com/bridce/fgp-go-boilerplate/config/db"
 
 func init() {
 	/* init automigrate DB
