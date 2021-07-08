@@ -15,7 +15,7 @@ type ServerConfig struct {
 
 //Database config
 type Database struct {
-	Name     string `env:"DB_SCHEMA" default:"direct_debit"`
+	Name     string `env:"DB_SCHEMA" default:"db_1"`
 	Adapter  string `env:"DB_DRIVER" default:"mysql"`
 	Host     string `env:"DB_HOST" default:"localhost"`
 	Port     string `env:"DB_PORT" default:"3306"`
