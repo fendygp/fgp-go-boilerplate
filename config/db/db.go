@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bridce/fgp-go-boilerplate/config"
+	"github.com/fgp-go-boilerplate/config"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/validations"
 )

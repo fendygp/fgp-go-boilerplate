@@ -1,4 +1,4 @@
-module github.com/bridce/fgp-go-boilerplate
+module github.com/fgp-go-boilerplate
 
 go 1.13
 
